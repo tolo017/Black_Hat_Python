@@ -1,0 +1,20 @@
+*Anything inside the brackets is what we run on the terminal. Snapshots will be provided.
+
+Setting Up of The Pentesting and Hacking Environment
+
+- On Kali Linux
+  > Open terminal and run (python --version) - To check your Python version.
+  > Install other additional packages of Python. Use terminal (sudo apt install python3-pip python3-setuptools)
+  > Test and install the module that we will use to build a GitHub-based trojan. Open terminal (sudo apt install python3-github)
+
+  > Drop into a Python shell and validate installation.
+     Terminal (sudo python)
+     In the shell; (>>> import github)
+                   (>>> exit())
+
+  > Download and install WingIDE for Kali (https://wingware.com) - For writing Python codes.
+  > Extract the downloaded folder. Open the folder in terminal.
+    In the terminal; Run (ls) command - To confirm the presence of the installer script.
+                     (chmod +x ./wing-install.py) - Makes the installer script executable.
+                     (sudo python3 ./wing-install.py) - Runs the installer script.
+                     
